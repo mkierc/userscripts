@@ -1,3 +1,16 @@
+/**
+ * GoogleDocs Templates Remover
+ * Userscript for removing the ugly "Start a new document" banner from Google Docs / Sheets / Slides
+ * Copyright © 2015 by M. Kierc. All rights reserved.
+ * 
+ * GoogleDocs Templates Remover is licensed under the GNU General Public License v3.
+ * You can redistribute it and/or modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation, either version 3 of the License, or any later version.
+ * 
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU General Public License for more details. <http://www.gnu.org/licenses/gpl.html>.
+ **/
 // ==UserScript==
 // @name         GoogleDocs Templates Remover
 // @namespace    https://github.com/mkierc
@@ -6,11 +19,12 @@
 // @downloadURL  https://github.com/mkierc/userscripts/raw/master/GoogleDocs%20Templates%20Remover.user.js
 // @version      0.1
 // @description  Removes the ugly "Start a new document" banner from Google Docs (Google Sheets and Google Slides included)
-// @author       MKierc
+// @author       M. Kierc
 // @match        http://docs.google.com/*
 // @match        https://docs.google.com/*
 // @run-at       document-start
 // @grant        none
+// @license      GNU General Public License v3
 // ==/UserScript==
 (
     function() {
