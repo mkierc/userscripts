@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name         GoogleDocs Templates Remover
 // @namespace    https://github.com/mkierc
-// @homepage     https://github.com/mkierc/userscripts/blob/master/GoogleDocs%20Templates%20Remover.js
+// @homepage     https://github.com/mkierc/userscripts/
+// @updateURL    https://raw.githubusercontent.com/mkierc/userscripts/master/GoogleDocs%20Templates%20Remover.user.js
+// @downloadURL  https://raw.githubusercontent.com/mkierc/userscripts/master/GoogleDocs%20Templates%20Remover.user.js
 // @version      0.1
 // @description  Removes the ugly "Start a new document" banner from Google Docs (Google Sheets and Google Slides included)
 // @author       MKierc
