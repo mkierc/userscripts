@@ -1,12 +1,18 @@
 ## Userscripts
 
-#### GoogleDocs Templates Remover
+### GoogleDocs Templates Remover
 Removes the ugly "Start a new document" banner from:
 - Google Docs
 - Google Sheets
 - Google Slides
 
-#### Alior Dashboard Banner Remover
+#### Before
+![Before using GoogleDocs Templates Remover](gdtr-before.png)
+
+#### After
+![After using GoogleDocs Templates Remover](gdtr-after.png)
+
+### Alior Dashboard Banner Remover
 Removes the annoying product ad banner from Alior Bank dashboard
 
 #### Before
