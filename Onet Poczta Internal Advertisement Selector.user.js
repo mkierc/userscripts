@@ -15,17 +15,23 @@
 // @name         Automatic internal advertisement messages selector for Onet Poczta
 // @namespace    https://github.com/mkierc
 // @homepage     https://github.com/mkierc/userscripts/
+// @updateURL    https://github.com/mkierc/userscripts/raw/master/Onet%20Poczta%20Internal%20Advertisement%20Selector.user.js
+// @downloadURL  https://github.com/mkierc/userscripts/raw/master/Onet%20Poczta%20Internal%20Advertisement%20Selector.user.js
 // @version      0.1
 // @description  Automated selection of internal advertisement messages from Onet Group
 // @author       M. Kierc
-// @match        https://poczta.onet.pl/index.html#/Odebrane*
-// @match        http://poczta.onet.pl/index.html#/Odebrane*
-// @run-at       document-idle
-// @grant        unsafeWindow
+// @match        http://poczta.onet.pl/*
+// @match        https://poczta.onet.pl/*
+// @grant        none
+// @run-at       document-end
 // @license      GNU General Public License v3
 // ==/UserScript==
 
-(function() {
+(
+
+    function() {
+    'use strict';
+
     const new_button = document.createElement("button");
     new_button.type = "button";
     new_button.title = "Zaznacz żółty spam";
@@ -51,4 +57,5 @@
 
     document.getElementsByClassName("buttons-container")[0].appendChild(new_button);
 
-})();
+    }
+)();
