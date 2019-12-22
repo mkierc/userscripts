@@ -20,3 +20,12 @@ Removes the annoying product ad banner from Alior Bank dashboard
 
 #### After
 ![After using Alior Dashboard Banner Remover](adbr-after.png)
+
+### Onet Poczta Internal Advertisement Selector
+Automated selection of internal advertisement messages from Onet Group
+
+#### Before
+![Before using Onet Poczta Internal Advertisement Selector](opias-before.png)
+
+#### After
+![After using Onet Poczta Internal Advertisement Selector](opias-after.png)
